@@ -68,18 +68,4 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :address => "smtp.gmail.com",
-    :port => 587,
-    # :user_name => "ashrutpanchal111@gmail.com",
-    # :password => "ocfynlemwrqusdhj",
-    :user_name => "mamtapanchal101071@gmail.com",
-    :password => "kyegiifueexcatob",
-    # :user_name => 'ashrutpanhal112@gmail.com',
-    # :password => 'wkdedhngwesqtcdp',
-    :authentication => :plain,
-    :enable_starttls_auto => true
-  }
-
 end
